@@ -1,0 +1,27 @@
+{
+  "name": "MongoScrapes",
+  "version": "1.0.0",
+  "description": "App that displays a web page populated with story headlines from a news outlet.  Articles from these sites are stored in a Mongo database and are displayed using the database (rather than directly loading in as an embed from the site).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisoftheAnglers/MongoScrapes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisoftheAnglers/MongoScrapes/issues"
+  },
+  "homepage": "https://github.com/ChrisoftheAnglers/MongoScrapes#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.7"
+  }
+}
